@@ -1,0 +1,88 @@
+/*fonts*/
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-size: 32px;
+  font-family: 'Roboto', sans-serif;
+  background-color: rgb(92, 24, 202) !important;
+  height: 100vh;
+}
+.app{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container{
+  margin: 10px 10px 10px 15px;
+}
+header>span{
+  font-size: 40px;
+  color: white;
+}
+.append-group{
+  display: flex;
+  flex-wrap: nowrap;
+}
+.btn-append{
+  min-width: 88px;
+}
+.container-task, .task-items{
+  display: flex;
+  flex-direction: column;
+}
+.task-items{
+  margin-top: 10px;
+}
+.task-title{
+  display:flex;
+  justify-content: center;
+  font-size: 28px;
+  font-weight: 700;
+  color: antiquewhite;
+  background-color: rgb(111, 46, 216) !important;
+}
+.task-descr{
+  color: white;
+}
+.order-task{
+  background-color: rgb(106, 26, 235);
+}
+.task-descr{
+  display: flex;
+  justify-content: space-between;
+  font-size: 22px;
+  padding: 5px;
+}
+.task-descr>p{
+  word-break:break-all;
+}
+.task-descr>button{
+  align-self: center;
+}
+.task-descr {
+  border-radius: 15px 15px;
+  border-bottom: 3px solid rgb(255, 78, 78);
+  border-left: 1px solid rgb(255, 78, 78);
+}
+.container-task-descr:first-child{
+  border-radius: 15px 15px;
+  border-top: 3px solid rgb(255, 78, 78);
+}
+.task-descr:hover{
+  opacity: 0.8;
+  cursor: pointer;
+}
+.fade-enter-active {
+  transition: all .3s ease;
+}
+.fade-leave-active {
+  transition: all .5s ease;
+}
+.fade-enter, .fade-leave-to {
+  transform: translateX(10px);
+  opacity: 0;
+}

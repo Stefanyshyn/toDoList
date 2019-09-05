@@ -1,0 +1,35 @@
+{
+  "name": "task_list",
+  "version": "1.0.0",
+  "description": "",
+  "main": "vue.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stefanyshyn/Task-List-Vue-.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Stefanyshyn/Task-List-Vue-/issues"
+  },
+  "homepage": "https://github.com/Stefanyshyn/Task-List-Vue-#readme",
+  "dependencies": {
+    "async": "^3.1.0",
+    "css-loader": "^3.2.0",
+    "express": "^4.17.1",
+    "jquery": "^3.4.1",
+    "mongodb": "^3.3.1",
+    "mongoose": "^5.6.11",
+    "node": "^12.9.0",
+    "path": "^0.12.7",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.39.3"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.7"
+  }
+}
