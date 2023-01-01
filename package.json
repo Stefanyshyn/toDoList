@@ -19,17 +19,17 @@
   "homepage": "https://github.com/Stefanyshyn/Task-List-Vue-#readme",
   "dependencies": {
     "async": "^3.1.0",
-    "css-loader": "^3.2.0",
+    "css-loader": "^6.7.3",
     "express": "^4.17.1",
     "jquery": "^3.4.1",
     "mongodb": "^3.3.1",
     "mongoose": "^5.7.5",
     "node": "^12.9.0",
     "path": "^0.12.7",
-    "style-loader": "^1.0.0",
-    "webpack": "^4.39.3"
+    "style-loader": "^1.3.0",
+    "webpack": "^5.75.0"
   },
   "devDependencies": {
-    "webpack-cli": "^3.3.7"
+    "webpack-cli": "^5.0.1"
   }
 }
